@@ -1,1 +1,1 @@
-# Concurrency_Collection
+My collection of random pieces of concurrency algorithms.
