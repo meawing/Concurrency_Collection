@@ -19,7 +19,7 @@ inline void FutexWake(int* value, int count) {
     syscall(SYS_futex, value, FUTEX_WAKE, count, nullptr, nullptr, 0);
 }
 
-// An atomic_compare_exchange wrapper with semantics expected by the paper's
+// An atomic_compare_exchange wrapper with semantics expected by
 // mutex - return the old value stored in the atom.
 int CmpxchWrapper(std::atomic<int>* state, int expected, int desired) {
     int* exp = &expected;
