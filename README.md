@@ -1,1 +1,1 @@
-My collection of random pieces of concurrency algorithms.
+My collection of random pieces of synchronization algorithms.
